@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+@layer base {
+  .dltxlabs-shadow {
+    filter: drop-shadow(0 0 40px rgba(255, 255, 255, 1))
+  }
+
+  @keyframes moveChain {
+    from {
+      transform: translateX(-20rem);}
+    to {
+      transform: translateX(-100rem);
+    }
+  }
+  
+  .chain-wrapper {
+    animation: moveChain 90s linear infinite;
+    translate: 0 -23.5rem;
+  }
+}
