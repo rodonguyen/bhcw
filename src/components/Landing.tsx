@@ -62,8 +62,8 @@ export const Landing: React.FC = () => {
 
   return (
     <section
-      className="w-full h-screen bg-gradient-to-b from-black to-black-900 text-white 
-      font-bourna text-center items-center justify-center py-4"
+      className="w-screen h-screen bg-gradient-to-b from-black to-black-900 text-white 
+      font-bourna text-center items-center justify-center py-4 overflow-hidden"
     >
       <div className="my-12">
         <img
@@ -78,7 +78,6 @@ export const Landing: React.FC = () => {
           {timeRemaining}
         </h2>
 
-        
         <MovingChain />
       </div>
     </section>

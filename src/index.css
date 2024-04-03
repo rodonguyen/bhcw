@@ -15,14 +15,15 @@
 
   @keyframes moveChain {
     from {
-      transform: translateX(-20rem);}
+      transform: translateX(-25rem) scale(50%);
+    }
     to {
-      transform: translateX(-100rem);
+      transform: translateX(-200rem) scale(50%);
     }
   }
   
   .chain-wrapper {
-    animation: moveChain 90s linear infinite;
-    translate: 0 -23.5rem;
+    animation: moveChain 120s linear infinite;
+    translate: 0 -27.5rem;
   }
 }
